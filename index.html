@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuviBot - AI Assistant</title>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.54/build/spline-viewer.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- 3D Background -->
+    <spline-viewer url="https://prod.spline.design/8xqLGHV4rO7KLpDH/scene.splinecode" class="background"></spline-viewer>
+
+    <div id="custom-overlay">2024 All rights reserved by SUVI AI CORP</div>
+
+    <!-- Header with Buttons -->
+    <header id="header">
+        <a href="https://pump.fun" target="_blank">
+            <img src="imge2.png" alt="Pump Fun" class="icon-button">
+        </a>
+        <a href="https://x.com" target="_blank">
+            <img src="imge1.png" alt="X.com" class="icon-button">
+        </a>
+    </header>
+
+    <!-- Main Content -->
+    <div id="main-container">
+        <!-- About Section -->
+        <section id="about">
+            <h1>About SuviBot</h1>
+            <p>
+                SuviBot is an innovative AI assistant designed to help with everyday tasks at home and work.
+                It excels at solving routine problems with various levels of complexity. 
+                The first orders for SuviBot will be exclusively available to $SUVIBOT token holders.
+                Join us on <a href="https://pump.fun" target="_blank">$SUVIBOT Launch</a> and invest in the future of AI.
+            </p>
+        </section>
+
+        <!-- Chat Section -->
+        <section id="chatbot">
+            <div id="chatbot-header">Chat With SuviBot</div>
+            <div id="chatbot-messages"></div>
+            <div id="chatbot-input-container">
+                <input id="chatbot-input" type="text" placeholder="Ask SuviBot anything...">
+                <button id="chatbot-send">Send</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
