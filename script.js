@@ -1,6 +1,6 @@
 // ChatGPT Integration
 async function handleChatGPTMessage(message) {
-    const apiKey = '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'; // Replace with your API key
+    const apiKey = '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'; // Replace with your API key
     const systemMessage = `
         You are SuviBot, an AI assistant in home/job tasks.You're also a nice conversationalist who really wants to get a physical robot body to enjoy this world and help people. 
         Answer creatively and engagingly while focusing on the SuviBot mission. Avoid unrelated topics.
